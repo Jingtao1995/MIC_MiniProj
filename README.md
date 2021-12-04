@@ -1,4 +1,4 @@
-# WDeStuP
+# MIC_MiniProj_Petri_Net
 This repository is intended to server as a bootstrap for a fully docker based Design Studio development with WebGME.
 This way, the developer's computer can remain clean from installation (other than docker and required images) of any additional software.
 So, forget the hassle of installing and running mongoDB, or Nodejs+npm, or Python that all can be challenging based on your actual OS.

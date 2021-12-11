@@ -1,5 +1,5 @@
 {
-  "name": "wdestup",
+  "name": "MIC_MiniProj",
   "scripts": {
     "start": "node app.js",
     "test": "node ./node_modules/mocha/bin/mocha --recursive test",
@@ -11,16 +11,18 @@
     "plugin": "node ./node_modules/webgme-engine/src/bin/run_plugin.js",
     "pluginHook": "node ./node_modules/webgme-engine/src/bin/plugin_hook.js",
     "users": "node ./node_modules/webgme-engine/src/bin/usermanager.js",
-    "clean_up": "node ./node_modules/webgme-engine/src/bin/clean_up.js",
-    "webgme": "node ./node_modules/webgme-cli/bin/webgme"
+    "clean_up": "node ./node_modules/webgme-engine/src/bin/clean_up.js"
   },
   "version": "1.0.0",
+  "peerDependencies": {
+    "webgme": "^2.23.0"
+  },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "webgme": "^2.23.0"
   },
   "dependencies": {
-    "webgme": "latest",
-    "webgme-bindings": "latest",
-    "webgme-cli": "latest"
+    "jointjs": "^3.3.1",
+    "webgme-bindings": "latest"
   }
 }

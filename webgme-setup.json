@@ -1,4 +1,29 @@
 {
-  "components": {},
-  "dependencies": {}
+  "components": {
+    "visualizers": {
+      "Demo": {
+        "src": "panels/Demo/DemoPanel",
+        "title": "Demo",
+        "panel": "src/visualizers/panels/Demo",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/Demo"
+      }
+    },
+    "plugins": {
+      "model": {
+        "src": "src/plugins/model",
+        "test": "test/plugins/model"
+      }
+    },
+    "seeds": {
+      "miniproject": {
+        "src": "src/seeds/miniproject"
+      }
+    }
+  },
+  "dependencies": {
+    "visualizers": {},
+    "plugins": {},
+    "seeds": {}
+  }
 }
